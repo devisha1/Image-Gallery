@@ -16,7 +16,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. NodeJS: Download the installer for your platform and perform the installation by executing the installer.
 4. To install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project).
 5. For Front-end/Web Server: In the Image-Gallery folder. Run `npm install` to install the package dependencies. Run `ng serve` or `npm run start` to host the Web Server.
-6. For Back-end Application Server: In another termial/gitbash, navigate to Image-Gallery/api. Run `npm install` to install package dependencies. Run  `node server` to host the Application Server.
+6. For Back-end Application Server: In another termial/gitbash, navigate to Image-Gallery/api. Run `npm install` to install package dependencies. Run  `node server` or `nodemon server` to host the Application Server. When server is started the following appears on console:
+
+`node server
+Listening on port 4000
+Version 1.0`
+
 
 ## Front-End Development server
 
