@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Dependencies: 
 
-Angular CLI https://cli.angular.io/
-Node Package Magnager (npm) https://www.npmjs.com/get-npm
-NodeJS https://nodejs.org/en/download/
-VS Code https://code.visualstudio.com/ (optional)
+1. Angular CLI https://cli.angular.io/
+2. Node Package Magnager (npm) https://www.npmjs.com/get-npm
+3. NodeJS https://nodejs.org/en/download/
+4. VS Code https://code.visualstudio.com/ (optional)
 
 ## Setup:
 
