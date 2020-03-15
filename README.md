@@ -1,14 +1,14 @@
-# Angular7crud
+# Image Gallery
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
-## Development server
+## Front-End Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Front End runs on Angular7. Run `ng serve` or `npm run start`  for a dev server hosted on port 4200.Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Back-End Development server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Back-end runs on Express framework and is written in NodeJs. Run `node server` for a dev server. The server is hosted on port:4000. The app will automatically reload if you change any of the source files.
 
 ## Build
 
