@@ -1,0 +1,63 @@
+<h1 style="padding-left: 6%;
+padding-top: 2%;">400 * 400 </h1>
+<div class="fixed-size-container">
+  <div *ngFor="let i of list55" (click)="navigateToImage(i)" class="fixed-size">
+    <img style="cursor:pointer" [src]="i">
+  </div>
+</div>
+
+<mat-paginator [length]="10" [pageSize]="size1" [pageIndex]="page1" [pageSizeOptions]="[3, 10]"
+  (page)="getData5($event)">
+</mat-paginator>
+
+
+<h1 style="padding-left: 6%;
+padding-top: 2%;">300 * 300 </h1>
+<div class="fixed-size-container">
+  <div *ngFor="let i of list" (click)="navigateToImage(i)" class="fixed-size">
+    <img style="cursor:pointer" [src]="i">
+  </div>
+</div>
+
+<mat-paginator [length]="10" [pageSize]="size" [pageIndex]="page" [pageSizeOptions]="[4, 12, 30]"
+  (page)="getData($event)">
+</mat-paginator>
+
+
+<h1 style="padding-left: 6%;
+padding-top: 2%;">300 * 200 </h1>
+<div class="fixed-size-container">
+  <div *ngFor="let i of list22" (click)="navigateToImage(i)" class="fixed-size">
+    <img style="cursor:pointer" [src]="i">
+  </div>
+</div>
+
+<mat-paginator [length]="10" [pageSize]="size1" [pageIndex]="page1" [pageSizeOptions]="[4, 12, 30]"
+  (page)="getData2($event)">
+</mat-paginator>
+
+<h1 style="padding-left: 6%;
+padding-top: 2%;">250 * 250 </h1>
+<div class="fixed-size-container">
+  <div *ngFor="let i of list44" (click)="navigateToImage(i)" class="fixed-size">
+    <img style="cursor:pointer" [src]="i">
+  </div>
+</div>
+
+<mat-paginator [length]="10" [pageSize]="size1" [pageIndex]="page1" [pageSizeOptions]="[4, 12, 30]"
+  (page)="getData4($event)">
+</mat-paginator>
+
+
+
+<h1 style="padding-left: 6%;
+padding-top: 2%;">100 * 100 </h1>
+<div class="fixed-size-container">
+  <div *ngFor="let i of list33" (click)="navigateToImage(i)" class="fixed-size">
+    <img style="cursor:pointer" [src]="i">
+  </div>
+</div>
+
+<mat-paginator [length]="10" [pageSize]="size1" [pageIndex]="page1" [pageSizeOptions]="[4, 12, 30]"
+  (page)="getData3($event)">
+</mat-paginator>

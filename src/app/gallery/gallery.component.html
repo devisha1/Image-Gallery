@@ -1,0 +1,28 @@
+
+
+
+
+<div class="padding"><h4>Filter by Resolution</h4>
+<mat-form-field>
+  <mat-label> Select Resolution</mat-label>
+  <mat-select >
+    <mat-option *ngFor="let res of resolutions" (click)="selectFilter(res.value)" [value]="res.value">
+      {{res.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+</div>
+
+<div class="fixed-size-container">
+    <div   *ngFor="let i of images" class="fixed-size" (click)="navigateToImage(i)" routerLinkActive="active">
+      <img  [src]="i" style=" cursor:pointer" >
+    </div>
+  </div>
+
+  <mat-paginator [length]="images2.length"
+  [pageSize]="size"
+  [pageIndex]="page"
+  [pageSizeOptions]="[4, 12, 30]"
+  (page)="getData($event)">
+</mat-paginator>
+
