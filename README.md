@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Setup:
 
-1. Clone the project
+1. Clone the project.
 2. Open Project in IDE w/ termial/gitbash, download NodeJS and NPM.
 3. NodeJS v10.14.1: Download the installer for your platform and perform the installation by executing the installer.
 4. To install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project).
