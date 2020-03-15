@@ -1,9 +1,7 @@
 const express = require('express'),
     path = require('path'),
     bodyParser = require('body-parser'),
-    cors = require('cors'),
-    config = require('./DB');
-
+    cors = require('cors');
 const imagesRoute = require('./routes/image.route');
 var version=process.env.version || "1.0"
 
