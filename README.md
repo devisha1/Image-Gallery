@@ -1,14 +1,30 @@
-# Angular7crud
+# Image Gallery
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
-## Development server
+## Dependencies: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Angular CLI https://cli.angular.io/
+2. Node Package Magnager (npm) https://www.npmjs.com/get-npm
+3. NodeJS https://nodejs.org/en/download/
+4. VS Code https://code.visualstudio.com/ (optional)
 
-## Code scaffolding
+## Setup:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the project
+2. Open Project in IDE w/ termial/gitbash, download NodeJS and NPM.
+3. NodeJS: Download the installer for your platform and perform the installation by executing the installer.
+4. To install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project).
+5. For Front-end/Web Server: In the Image-Gallery folder. Run `npm install` to install the package dependencies. Run `ng serve` or `npm run start` to host the Web Server.
+6. For Back-end Application Server: In another termial/gitbash, navigate to Image-Gallery/api. Run `npm install` to install package dependencies. Run  `node server` to host the Application Server.
+
+## Front-End Development server
+
+Front End runs on Angular7. Run `ng serve` or `npm run start`  for a dev server hosted on port: 4200. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Back-End Development server
+
+Back-end runs on Express framework and is written in NodeJs. Run `node server` for a dev server. The server is hosted on port:4000.
 
 ## Build
 
