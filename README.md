@@ -9,12 +9,12 @@ Node Package Magnager (npm) https://www.npmjs.com/get-npm
 NodeJS https://nodejs.org/en/download/
 VS Code https://code.visualstudio.com/ (optional)
 
-## Setup
+## Setup:
 
-1. git clone the project
-2. Open Project in IDE in termial/gitbash, download NodeJS and NPM
+1. Clone the project
+2. Open Project in IDE w/ termial/gitbash, download NodeJS and NPM.
 3. NodeJS: Download the installer for your platform and perform the installation by executing the installer.
-4. Install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project)
+4. To install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project)
 5. For Front-end/Web Server: In the Image-Gallery folder. Run `npm install` to install the package dependencies. Run `ng serve` or `npm run start` to host the Web Server.
 6. For Back-end Application Server: In another termial/gitbash, navigate to Image-Gallery/api. Run `npm install` to install package dependencies. Run  `node server` to host the Application Server.
 
