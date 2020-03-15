@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Front-End Development server
 
-Front End runs on Angular7. Run `ng serve` or `npm run start`  for a dev server hosted on port 4200.Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Front End runs on Angular7. Run `ng serve` or `npm run start`  for a dev server hosted on port: 4200. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Back-End Development server
 
-Back-end runs on Express framework and is written in NodeJs. Run `node server` for a dev server. The server is hosted on port:4000. The app will automatically reload if you change any of the source files.
+Back-end runs on Express framework and is written in NodeJs. Run `node server` for a dev server. The server is hosted on port:4000.
 
 ## Build
 
