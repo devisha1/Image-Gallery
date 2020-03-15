@@ -6,14 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Angular CLI https://cli.angular.io/
 2. Node Package Magnager (npm) https://www.npmjs.com/get-npm
-3. NodeJS https://nodejs.org/en/download/
+3. NodeJS https://nodejs.org/en/download/ NodeJS Version (10.14.1)
 4. VS Code https://code.visualstudio.com/ (optional)
 
 ## Setup:
 
 1. Clone the project
 2. Open Project in IDE w/ termial/gitbash, download NodeJS and NPM.
-3. NodeJS: Download the installer for your platform and perform the installation by executing the installer.
+3. NodeJS v10.14.1: Download the installer for your platform and perform the installation by executing the installer.
 4. To install Angular CLI. Run `npm install -g @angular/cli` (may need to close the IDE and open again for Angular to be installed in project).
 5. For Front-end/Web Server: In the Image-Gallery folder. Run `npm install` to install the package dependencies. Run `ng serve` or `npm run start` to host the Web Server.
 6. For Back-end Application Server: In another termial/gitbash, navigate to Image-Gallery/api. Run `npm install` to install package dependencies. Run  `node server` or `nodemon server` to host the Application Server. When server is started the following appears on console:
@@ -33,10 +33,6 @@ Back-end runs on Express framework and is written in NodeJs. Run `node server` f
 ## Build:
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests:
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests:
 
